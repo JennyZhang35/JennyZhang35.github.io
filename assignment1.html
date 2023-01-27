@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment1-10 x 10 HTML Table</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+  <body>
+    <div class="container">
+    <img src="images/centennial.png"alt="centennial" width="500" height="80">
+    <h1>Assignment 1-10x10 Table</h1>
+    <p><strong>A webspage that dynamically creates a table on window load event</strong></p>
+    <div id="tableContainer"></div>
+    <form onsubmit="numberOfPrompt(); return false">
+      <label for="numberOfRow">Enter number of rows:</label>
+      <input type="text" id="numberOfRow" name="numberOfRow" value="" />
+      <br />
+      <br />
+      <label for="numberOfColumn">Enter number of colums:</label>
+      <input type="text" id="numberOfColumn" name="numberOfColumn" value="" />
+      <br />
+      <br />
+
+      <button type="submit" defer>Create a table</button>
+    </form>
+    <br>
+    <p><small>&copyCopyright by Na Zhang in Centennial College. All rights reserved.</small></p>
+
+  </div>
+
+    
+    <script src="assignment1.js" defer></script>
+    
+  </body>
+</html>
